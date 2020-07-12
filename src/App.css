@@ -3,8 +3,8 @@
 :root {
   --sidebar-flex:1.5;
   --condiv-flex:6;
-  --fontsize-p:1.2rem;
-  --fontsize-nav:1.6rem;
+  --fontsize-p:1.5rem;
+  --fontsize-nav:2rem;
   --typing-font:3rem;
 }
 
@@ -15,6 +15,7 @@
 
 body {
 font-family: 'Hepta Slab', serif;
+color: #2C2A29;
 }
 
 .App {
@@ -49,7 +50,6 @@ nav ul {
   text-align: center;
   list-style-type: none;
   text-decoration: none;
-  color: white !important;
 }
 
 nav ul li {
@@ -65,10 +65,18 @@ nav ul li {
   
 }
 
+.name {
+  color: #651D32;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  }
+
 .profilepic
 {
   border-radius: 50%;
-  width: 500px;
+  width: 400px;
   margin: 30px;
 }
 
@@ -76,6 +84,7 @@ nav ul li {
 {
   font-size: var(--typing-font);
   margin-bottom: 30px;
+  font-variant: small-caps;
 }
 
 /* css for active class */
@@ -105,12 +114,42 @@ nav ul li {
 
 .subtopic {
   margin: 10px 10px 30px 10px !important;
+  font-weight:bolder;
 }
 
 p {
   font-size: var(--fontsize-p)
 }
 
+h1 {
+  color: #651D32;
+  font-size: 50px;
+}
+
 h1,h2,h3,h4,p {
   margin: 10px;
+}
+
+.widecard {
+  border: 0px solid #651D32;
+  color:  #2C2A29;
+  display: flex;
+  margin: 30px 0px 30px 0px;
+}
+
+.widecard:hover {
+  border: 2px solid #651D32;
+  color:  #651D32;
+  background-color: #E56A54;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+}
+
+.skills ul li {
+  list-style-type:none;
+  margin:10px;
+  padding-left: 20px;
+}
+
+.skills li:hover {
+  color: #E56A54;
 }

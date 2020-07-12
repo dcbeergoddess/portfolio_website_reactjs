@@ -26,8 +26,9 @@ class Navbar extends Component {
           {/* item and tolink are props */}
           <Navitem item="Home" tolink="/" activec={this.activeitem}></Navitem>
           <Navitem item="About" tolink="/about" activec={this.activeitem}></Navitem>
-          <Navitem item="Education" tolink="/education" activec={this.activeitem}></Navitem>
+          <Navitem item="Portfolio" tolink="/portfolio" activec={this.activeitem}></Navitem>
           <Navitem item="Skills" tolink="/skills" activec={this.activeitem}></Navitem>
+          <Navitem item="Education" tolink="/education" activec={this.activeitem}></Navitem>
           <Navitem item="Contact" tolink="/contact" activec={this.activeitem}></Navitem>
         </ul>
       </nav>
