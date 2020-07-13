@@ -5,7 +5,7 @@ class Skills extends Component {
   constructor(props) {
     super(props);
     this.state={
-      'myskills': ['React', 'JavaScript', 'jQuery', 'MERN Stack', 'HTML', 'CSS', 'Bootstrap', 'Node', 'Express', 'ES6+', 'JSX', 'SQL', 'Sequelize', 'MongoDB', 'Mongoose', 'Github', "APIs", 'Final Cut Pro X', 'Adobe Create Suite', 'Trello' ]
+      'myskills': ['React', 'JavaScript', 'jQuery', 'MERN Stack', 'HTML', 'CSS', 'Bootstrap', 'Node', 'Express', 'ES6+', 'JSX', 'SQL', 'Sequelize', 'MongoDB', 'Mongoose', 'Github', "APIs", 'Final Cut Pro X', 'Adobe Creative Suite', 'Trello' ]
     }
   }
   

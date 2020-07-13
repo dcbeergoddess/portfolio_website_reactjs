@@ -123,9 +123,8 @@ p {
   font-size: var(--fontsize-p);
 }
 
-h1 {
+h1, h2 {
   color: #651d32;
-  /* font-size: 50px; */
 }
 
 h1,
@@ -134,6 +133,7 @@ h3,
 h4,
 p {
   margin: 10px;
+  text-align: center
 }
 
 .widecard {
@@ -213,6 +213,12 @@ p {
   background-color: #e56a54;; 
 }
 
+.contactinfo {
+  text-decoration: none;
+  color: #e56a54;
+}
+
+
 @media all and (max-width: 450px) {
   :root {
     --fontsize-nav: 1rem;
@@ -256,10 +262,6 @@ p {
   .social i {
     padding-right: 0px;
     padding-left: 0px;
-  }
-  
-  .name {
-    padding-left: 50px;
   }
 
   .contact {
