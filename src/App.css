@@ -160,6 +160,11 @@ p {
   color: #e56a54;
 }
 
+.contact {
+  display: column;
+  font-size: 20px;
+}
+
 .card {
   background: ivory;
   border-radius: 1px;
@@ -246,13 +251,22 @@ p {
     display: flex;
     justify-content: space-around;
     bottom: 30px;
+    margin-right: 50px;
   }
   .social i {
-    padding-right: 50px;
+    padding-right: 0px;
     padding-left: 0px;
   }
   
   .name {
     padding-left: 50px;
+  }
+
+  .contact {
+    font-size: 15px;
+  }
+
+  .contactSocial {
+    display: flex;
   }
 }
