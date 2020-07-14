@@ -140,6 +140,7 @@ p {
   border: 0px solid #651d32;
   color: #2c2a29;
   display: flex;
+  justify-content: center;
   margin: 30px 0px 30px 0px;
 }
 
@@ -164,6 +165,7 @@ p {
   display: column;
   font-size: 20px;
 }
+
 
 .card {
   background: ivory;
@@ -226,6 +228,9 @@ p {
     --typing-font: 1rem;
   }
   .App {
+    flex-direction: column;
+  }
+  .card {
     flex-direction: column;
   }
   .sidebar {
