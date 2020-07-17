@@ -11,7 +11,7 @@ class Education extends Component {
 
         <Widecard title="Professional Certificate: Full Stack Web Development" where="George Washington University | Washington, DC" from="March 2020" to="July 2020" />
 
-        <Widecard title="Bachelor of Science in Foreign Service" where="Georgetown University | Washington, DC" from="August 2003" to="May 2014" />
+        <Widecard title="Bachelor of Science in Foreign Service" where="Georgetown University | Washington, DC" from="August 2003" to="May 2007" />
 
       </div>
     )
