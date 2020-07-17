@@ -17,7 +17,7 @@ class Portfolio extends Component {
           <Projectcard
             title="Organizing for Change"
             image={ofcpic}
-            description="A MERN Stack application that creates a safe space in the technological world to promote local non-violent rallies and protests in DC inspired by  the Black Live Matter Movement."
+            description="(Collaborative Project) A MERN Stack application that creates a safe space in the technological world to promote local non-violent rallies and protests in DC inspired by the Black Lives Matter Movement."
             techstack="React.js | React Bootstrap | Flexbox | Node | MongoDB | HTML | CSS | JavaScript | Heroku"
             github="https://github.com/dcbeergoddess/OFC"
             deploy="https://organizing-for-change.herokuapp.com/" 
@@ -34,7 +34,7 @@ class Portfolio extends Component {
           <Projectcard
             title="Covid Tracking DMV"
             image={covidpic}
-            description="Get detailed information regarding the Covid-19 pandemic on each state in the DMV area and provide an outlet to take a break and “Escape from Reality”."
+            description="(Collaborative Project) Get detailed information regarding the Covid-19 pandemic on each state in the DMV area and provide an outlet to take a break and “Escape from Reality”."
             techstack="HTML | CSS | JavaScript | JQuery | API | Flexbox | moment.js | chart.js"
             github="https://github.com/dcbeergoddess/dmv_covid"
             deploy="https://dcbeergoddess.github.io/dmv_covid/index.html"
