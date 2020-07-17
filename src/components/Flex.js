@@ -7,7 +7,7 @@ export const Flex = props => (
       display: props.container ? "flex" : "block",
       justifyContent: props.justifyContent || "flex-start",
       flexDirection: props.flexDirection || "row",
-      flexGrow: props.flexGrow || 0,
+      flexGrow: props.flexGrow || 3,
       flexBasis: props.flexBasis || "auto",
       flexShrink: props.flexShrink || 1,
       flexWrap: props.flexWrap || "wrap",
