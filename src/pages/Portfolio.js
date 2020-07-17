@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Projectcard from "../components/Projectcard";
 import { Flex } from "../components/Flex"
 import covidpic from '../img/covid_screenshot.png';
-import ofcpic from '../img/OFC_screenshot.png';
+import ofcpic from '../img/OFC.png';
+import teampic from '../img/TeamProfile.png'
 
 class Portfolio extends Component {
 
@@ -12,20 +13,19 @@ class Portfolio extends Component {
 
       <div className="condiv">
         <h1 className="subtopic">Portfolio</h1>
-        <Flex container display="flex" width="90%" margin="50px auto" flexDirection="row" justifyContent="space-between">
-          
+        <Flex container display="flex" width="90%" margin="5px auto" flexDirection="row" justifyContent="space-between">
           <Projectcard
             title="Organizing for Change"
             image={ofcpic}
             description="A MERN Stack application that creates a safe space in the technological world to promote local non-violent rallies and protests in DC inspired by  the Black Live Matter Movement."
             techstack="React.js | React Bootstrap | Flexbox | Node | MongoDB | HTML | CSS | JavaScript | Heroku"
             github="https://github.com/dcbeergoddess/OFC"
-            deploy="https://organizing-for-change.herokuapp.com/"
+            deploy="https://organizing-for-change.herokuapp.com/" 
           />
 
-          {/* <Projectcard
+          <Projectcard
             title="Team Profile Generator"
-            image={ofcpic}
+            image={teampic}
             description="Using JavaScript and Node Package Managers, this CLI application will serve as a tool that a manager of a software engineering team can use to generate a webpage to display their team's basic info. The info will allow the manger to have quick access to emails and GitHub profiles."
             techstack="CLI | Javascript | NODE | inquirer.js | chalk.js | HTML | CSS"
             github="https://github.com/dcbeergoddess/team_profile_generator"
@@ -38,9 +38,7 @@ class Portfolio extends Component {
             techstack="HTML | CSS | JavaScript | JQuery | API | Flexbox | moment.js | chart.js"
             github="https://github.com/dcbeergoddess/dmv_covid"
             deploy="https://dcbeergoddess.github.io/dmv_covid/index.html"
-          /> */}
-
-
+          /> 
         </Flex>
       </div>
     )

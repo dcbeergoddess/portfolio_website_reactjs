@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
@@ -8,6 +9,7 @@ import Portfolio from './pages/Portfolio';
 import Skills from './pages/Skills';
 import Education from './pages/Education';
 import Contact from './pages/Contact';
+
 
 function App() {
   return (
