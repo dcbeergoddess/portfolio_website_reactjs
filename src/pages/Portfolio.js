@@ -4,6 +4,7 @@ import { Flex } from "../components/Flex"
 import covidpic from '../img/covid_screenshot.png';
 import ofcpic from '../img/OFC.png';
 import teampic from '../img/TeamProfile.png'
+import dchcpic from '../img/project.png'
 
 class Portfolio extends Component {
 
@@ -14,6 +15,14 @@ class Portfolio extends Component {
       <div className="condiv">
         <h1 className="subtopic">Portfolio</h1>
         <Flex container display="flex" width="90%" margin="5px auto" flexDirection="row" justifyContent="space-between">
+        <Projectcard
+            title="DC Hook && Coder Designs"
+            image={dchcpic}
+            description="Beginning of a CRUD Application to display my crochet and knit projects. Users can log in and comment on my projects"
+            techstack="HTML | CSS | JavaScript | Node.js | EJS | Bootstrap | passport.js | Express | Heroku"
+            github="https://github.com/dcbeergoddess/dcHooknCoderDesigns"
+            deploy="https://dc-hook-n-coder-designs.herokuapp.com/projects"
+          /> 
           <Projectcard
             title="Organizing for Change"
             image={ofcpic}
